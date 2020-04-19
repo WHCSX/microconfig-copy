@@ -15,11 +15,14 @@ eureka:
     prefer-ip-address: true
 
 info:
-  app.name: mldn-microcloud
-  app.version: v1.0.0
-  company.name: www.mldn.cn
-  pom.artifactId: $project.artifactId$
-  pom.version: $project.version$
+  app:
+    name: mldn-microcloud
+    version: v1.0.0
+  company:
+    name: www.mldn.cn
+  pom:
+    artifactId: $project.artifactId$
+    version: $project.version$
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
@@ -54,11 +57,14 @@ eureka:
     prefer-ip-address: true
 
 info:
-  app.name: mldn-microcloud
-  app.version: v1.0.0
-  company.name: www.mldn.cn
-  pom.artifactId: $project.artifactId$
-  pom.version: $project.version$
+  app:
+    name: mldn-microcloud
+    version: v1.0.0
+  company:
+    name: www.mldn.cn
+  pom:
+    artifactId: $project.artifactId$
+    version: $project.version$
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
