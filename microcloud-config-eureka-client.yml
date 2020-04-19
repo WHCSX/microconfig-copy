@@ -1,0 +1,42 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microcloud-config-eureka-client
+  security:
+    user:
+      name: edmindev
+      password: mldnjava
+server:
+  port: 7001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://edmindev:mldnjava@eureka-7001.com:7001/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: eureka-7001.com
+---
+spring:
+  profiles: beta
+  application:
+    name: microcloud-config-eureka-client
+  security:
+    user:
+      name: edminbeta
+      password: mldnjava
+server:
+  port: 7001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://edminbeta:mldnjava@eureka-7001.com:7001/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: eureka-7001.com
