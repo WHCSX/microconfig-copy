@@ -36,7 +36,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mldn8001?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: root
-    password: '{cipher}61b3750d3665410d4fedb73a1ca859afa154bbc83cb5434096870051cac09203'
+    password: '{cipher}AQBA8kprBwxcf6vhvOkzoNuZnQ7RT05RKj8SEPpfFkA7aW6KockWMMChhQoHNd3QKp0y8nEHZh4zrdQufhlKdtG3nsuvvZ+VaAs8HpB2aQOP0+a7rT001SWB7MexML1lfnM/1F2FxSgYwPBCQRAG2WHofeMdXBhAbXJEnHlIkPnYR1xQyrElDqzkMrOwzNQD92SHYjCam2ObhD1M8QuXGE6pNaMTPkFXx0hyQoMi3iHm5itbhjbE67FguJUf+TmdtF7DCGttlBdFWY0fE78Pj8z91oY7VRoOgDlAQxIYyHMRh5NTBEjYwOLItiU5qaSx4YM10HGOPE/mtP1d4khhf2WRpVZmjSKwcPImlltJhG7amIL43LGf1wv/lJwBAsZZ6vY='
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -78,7 +78,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mldn8001?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: root
-    password: '{cipher}61b3750d3665410d4fedb73a1ca859afa154bbc83cb5434096870051cac09203'
+    password: '{cipher}AQBA8kprBwxcf6vhvOkzoNuZnQ7RT05RKj8SEPpfFkA7aW6KockWMMChhQoHNd3QKp0y8nEHZh4zrdQufhlKdtG3nsuvvZ+VaAs8HpB2aQOP0+a7rT001SWB7MexML1lfnM/1F2FxSgYwPBCQRAG2WHofeMdXBhAbXJEnHlIkPnYR1xQyrElDqzkMrOwzNQD92SHYjCam2ObhD1M8QuXGE6pNaMTPkFXx0hyQoMi3iHm5itbhjbE67FguJUf+TmdtF7DCGttlBdFWY0fE78Pj8z91oY7VRoOgDlAQxIYyHMRh5NTBEjYwOLItiU5qaSx4YM10HGOPE/mtP1d4khhf2WRpVZmjSKwcPImlltJhG7amIL43LGf1wv/lJwBAsZZ6vY='
     dbcp2:
       min-idle: 5
       initial-size: 5
