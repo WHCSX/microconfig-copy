@@ -14,9 +14,9 @@ eureka:
     service-url:
       defaultZone: http://edmin:mldnjava@eureka-config.com:7301/eureka/
 info:
-  app.name: mldn-microcloud-dev-1
+  app.name: mldn-microcloud-dev-2
   company.name: www.mldn.cn
-  app.version: v-dev-1.0.0
+  app.version: v-dev-1.0.2
 ---
 server:
   port: 8102
